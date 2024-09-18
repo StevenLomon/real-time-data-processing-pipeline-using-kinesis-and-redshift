@@ -11,7 +11,7 @@ https://openweathermap.org/api
 * AWS Lambda
 * Amazon Redshift
 * PowerBI
-* AWS Glue (potentially)
+* AWS Glue (if needed)
 
 The project uses the following architecture:
 ![Project architecture diagram](/project-architecture-diagram.png "Project architecture diagram")

@@ -5,6 +5,7 @@ The idea is to build a real-time data pipeline that ingests data via Kinesis, pr
 
 The OpenWeather API will be used for real-time streaming of weather data to mimic IoT sensor data from weather stations.
 https://openweathermap.org/api
+Weather for New York Times Square will be streamed!
 
 ## Technologies used and project architecture
 * Amazon Kinesis
@@ -62,8 +63,11 @@ The following policy was created and attached to the Role:
 }
 ```
 
-### API Access
+### API Access and using it in kinesis.py
 An account was created on the openweathermap site and an API access key was created. 
+The API data will be used in kinesis.py and connected to the Kinesis stream. 
+
+For the storage and use of the API key, AWS Secrets Manager is used. The API key was stored in Secrets Manager
 
 ### Lambda
 
